@@ -2,7 +2,7 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Bhavesh Patel",
+  name: "Pritesh Patel",
   initials: "BP",
   url: "https://www.bhaveshpatel.xyz/",
   location: "Vadodara, India",
@@ -46,26 +46,26 @@ avatarUrl: "/pfp.png",
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "bhaveshmpatel2005@gmail.com",
+    email: "pritesh1122004@gmail.com",
     // tel: "+123456789",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/bhaveshmpatel",
+        url: "https://github.com/priteshpatel11",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/contactbhaveshpatel",
+        url: "https://www.linkedin.com/in/priteshpatel11/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/bhaveshpatel_5",
+        url: "https://x.com/priteshpatel11",
         icon: Icons.x,
 
         navbar: true,
@@ -87,64 +87,24 @@ avatarUrl: "/pfp.png",
     {
       school: "Parul University, Vadodara",
       href: "https://paruluniversity.ac.in/",
+      degree: "Master of Technology in Computer Engineering",
+      logoUrl: "https://paruluniversity.ac.in/wp-content/uploads/2025/09/Variant9.svg",
+      start: "2025",
+      end: "2027",
+    },
+    {
+      school: "Parul University, Vadodara",
+      href: "https://paruluniversity.ac.in/",
       degree: "Bachelor of Technology in Computer Science and Engineering",
       logoUrl: "https://paruluniversity.ac.in/wp-content/uploads/2025/09/Variant9.svg",
-      start: "2023",
-      end: "2027",
+      start: "2021",
+      end: "2025",
     },
   ],
   projects: [
     {
-      title: "Solana Voting dApp",
-      href: "https://vote.bhaveshpatel.xyz/",
-      dates: "2026",
-      active: true,
-      description:
-      "Developed a decentralized governance platform on the Solana blockchain that enables secure, transparent, and verifiable voting. Built custom Anchor programs to manage voter registration, proposal creation, and automated treasury distribution, ensuring high-speed execution and low transaction costs.",
-      technologies: ["Solana", "Anchor", "Rust", "Web3.js", "TypeScript", "JavaScript", "React.js", "Tailwind"],
-      links: [
-        {
-          type: "Website",
-          href: "https://vote.bhaveshpatel.xyz/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/bhaveshmpatel/voting_dapp",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/vote.png", // Add screenshot: "/snapchain.png" (place in /public folder) or use external URL
-      video: "", // Optional: Add demo video URL
-    },
-    {
-      title: "Excalidraw",
-      href: "https://github.com/bhaveshmpatel/excalidraw",
-      dates: "2025",
-      active: true,
-      description:
-        "Engineered a real-time collaborative whiteboard from scratch using the native HTML5 Canvas API, completely. I developed a custom rendering engine to handle geometry, collision detection, and multi-user synchronization, demonstrating deep control over browser performance and raw JavaScript logic.",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "Node.js",
-        "WebSocket",
-        "Canvas APIs",
-        "Tailwind"
-      ],
-      links: [
-        {
-          type: "Source",
-          href: "https://github.com/bhaveshmpatel/excalidraw",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/excalidraw.png",
-      video: "",
-    },
-    {
       title: "GeoGrade",
-      href: "https://github.com/bhaveshmpatel/geograde",
+      href: "https://github.com/priteshpatel11/geograde",
       dates: "2025",
       active: true,
       description:
@@ -153,7 +113,7 @@ avatarUrl: "/pfp.png",
       links: [
         {
           type: "Source",
-          href: "https://github.com/bhaveshmpatel/geograde",
+          href: "https://github.com/priteshpatel11/geograde",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -162,7 +122,7 @@ avatarUrl: "/pfp.png",
     },
     {
       title: "Alchemy Landing Page",
-      href: "https://github.com/bhaveshmpatel/alchemy-landing-page",
+      href: "https://github.com/priteshpatel11/alchemy-landing-page",
       dates: "2025",
       active: true,
       description:
@@ -171,7 +131,7 @@ avatarUrl: "/pfp.png",
       links: [
         {
           type: "Source",
-          href: "https://github.com/bhaveshmpatel/alchemy-landing-page",
+          href: "https://github.com/priteshpatel11/alchemy-landing-page",
           icon: <Icons.github className="size-3" />,
         },
       ],
